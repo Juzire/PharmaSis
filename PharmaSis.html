@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Analytics Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4361ee;
+            --primary-light: #5671f5;
+            --primary-dark: #3251d4;
+            --sidebar: #f8f9fa;
+            --text-dark: #212529;
+            --text-light: #6c757d;
+            --white: #ffffff;
+            --hover: #f1f3f5;
+            --active: #e2e8f0;
+            --shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            --radius: 8px;
+            --transition: 0.3s ease-in-out;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f7fa;
+            color: var(--text-dark);
+            line-height: 1.6;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+            height: calc(100vh - 70px);
+            transition: all var(--transition);
+        }
+
+        header {
+            background-color: var(--white);
+            padding: 20px 30px;
+            height: 70px;
+            box-shadow: var(--shadow);
+            z-index: 10;
+            position: sticky;
+            top: 0;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: left;
+            height: fit-content;
+            height: 100%;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .logo img {
+            width: 200px;
+            height: auto;
+        }
+
+        .sidebar {
+            width: 260px;
+            background-color: var(--sidebar);
+            padding: 25px 20px;
+            overflow-y: auto;
+            border-right: 1px solid #e9ecef;
+            transition: all var(--transition);
+        }
+
+        .main-content {
+            flex: 1;
+            padding: 30px;
+            overflow-y: auto;
+            background-color: #f4f7fa;
+        }
+
+        .menu-section {
+            margin-bottom: 15px;
+        }
+
+        .category-button {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 12px 25px;
+            background-color: transparent;
+            color: var(--text-dark);
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background-color var(--transition);
+            border-radius: var(--radius);
+            position: relative;
+        }
+
+        .category-button:hover {
+            background-color: var(--hover);
+        }
+
+        .category-button.active {
+            color: var(--primary);
+            background-color: var(--active);
+            font-weight: 600;
+        }
+
+        .category-button.active::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 4px;
+            background-color: var(--primary);
+        }
+
+        .submenu {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out;
+            background-color: rgba(0, 0, 0, 0.05);
+            margin-left: 20px;
+            border-radius: var(--radius);
+        }
+
+        .submenu.active {
+            max-height: 500px;
+        }
+
+        .submenu-item {
+            display: flex;
+            align-items: center;
+            padding: 10px 25px;
+            color: var(--text-light);
+            cursor: pointer;
+            font-size: 14px;
+            position: relative;
+            transition: background-color var(--transition), color var(--transition);
+            border-radius: var(--radius);
+        }
+
+        .submenu-item:hover {
+            background-color: var(--hover);
+            color: var(--primary);
+        }
+
+        .submenu-item.active {
+            color: var(--primary);
+            background-color: var(--active);
+            font-weight: 500;
+        }
+
+        .submenu-item.active::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 4px;
+            background-color: var(--primary);
+        }
+
+        .dashboard-content {
+            width: 100%;
+            height: 100%;
+            border-radius: var(--radius);
+            overflow: hidden;
+            background-color: var(--white);
+            box-shadow: var(--shadow);
+            position: relative;
+        }
+
+        .dashboard-frame {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: none;
+        }
+
+        .dashboard-frame.active {
+            display: block;
+        }
+
+        .placeholder-message {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            text-align: center;
+            color: var(--text-light);
+            padding: 30px;
+        }
+
+        .placeholder-content {
+            max-width: 600px;
+        }
+
+        .placeholder-content h2 {
+            margin-bottom: 15px;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .placeholder-icon {
+            font-size: 60px;
+            margin-bottom: 20px;
+            color: var(--primary-light);
+            opacity: 0.8;
+        }
+
+        .menu-icon {
+            margin-right: 15px;
+            font-size: 18px;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 240px;
+            }
+
+            .main-content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="pharmasis.png" alt="Pharma Sis Logo">
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="sidebar">
+            <!-- Doctor Performance Section -->
+            <div class="menu-section">
+                <button class="category-button" data-category="doctors">
+                    <i class="fas fa-user-md menu-icon"></i> Doctor Performance
+                </button>
+                <div class="submenu" id="doctors-submenu">
+                    <div class="submenu-item" data-iframe="prescriptionsPerDoctor">Prescriptions Per Doctor</div>
+                    <div class="submenu-item" data-iframe="prescriptionTrendDaily">Prescription Trend Daily</div>
+                    <div class="submenu-item" data-iframe="prescriptionByDay">Prescription By Day</div>
+                </div>
+            </div>
+            
+            <!-- Financial & Inventory Section -->
+            <div class="menu-section">
+                <button class="category-button" data-category="financial">
+                    <i class="fas fa-chart-line menu-icon"></i> Financial & Inventory
+                </button>
+                <div class="submenu" id="financial-submenu">
+                    <div class="submenu-item" data-iframe="stockLevels">Stock Levels</div>
+                    <div class="submenu-item" data-iframe="revenueTrendsDaily">Revenue Trends (Daily)</div>
+                    <div class="submenu-item" data-iframe="mostSoldMedications">Most Sold Medications</div>
+                    <div class="submenu-item" data-iframe="revenueByMonth">Revenue By Month</div>
+                </div>
+            </div>
+            
+            <!-- Patients Analytics Section -->
+            <div class="menu-section">
+                <button class="category-button" data-category="patients">
+                    <i class="fas fa-procedures menu-icon"></i> Patients Analytics
+                </button>
+                <div class="submenu" id="patients-submenu">
+                    <div class="submenu-item" data-iframe="patientsDetails">Patients Details</div>
+                    <div class="submenu-item" data-iframe="totalPatients">Total Patients</div>
+                    <div class="submenu-item" data-iframe="commonlyPrescribedMedications">Commonly Prescribed Medications</div>
+                    <div class="submenu-item" data-iframe="genderAllergiesDistribution">Gender & Allergies Distribution</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <div class="dashboard-content">
+                <!-- Doctor Performance iframes -->
+                <iframe id="prescriptionsPerDoctor" class="dashboard-frame" src="http://localhost:3000/public/question/404eb9ca-2b76-49f7-8c9d-2bd27fc08e82"></iframe>
+                <iframe id="prescriptionTrendDaily" class="dashboard-frame" src="http://localhost:3000/public/question/457d8f92-4b17-4ede-bcc5-1df62e9f4208"></iframe>
+                <iframe id="prescriptionByDay" class="dashboard-frame" src="http://localhost:3000/public/question/ff231f18-469e-4fa5-b752-fa4ed4acccd2"></iframe>
+                
+                <!-- Financial & Inventory iframes -->
+                <iframe id="stockLevels" class="dashboard-frame" src="http://localhost:3000/public/question/0f3b58a0-422c-495c-8bf8-d9794ce71993"></iframe>
+                <iframe id="revenueTrendsDaily" class="dashboard-frame" src="http://localhost:3000/public/question/15f284b9-5ee4-458b-9fbc-269696e10f5e"></iframe>
+                <iframe id="mostSoldMedications" class="dashboard-frame" src="http://localhost:3000/public/question/8016d019-56bd-46db-8925-ddfd75d580e5"></iframe>
+                <iframe id="revenueByMonth" class="dashboard-frame" src="http://localhost:3000/public/question/ec2de8e8-d94d-4dbc-a912-24f942f864bb"></iframe>
+                
+                <!-- Patients Analytics iframes -->
+                <iframe id="patientsDetails" class="dashboard-frame" src="http://localhost:3000/public/question/aa1e0ee4-6925-4ec7-ad83-c0b545c0db16"></iframe>
+                <iframe id="totalPatients" class="dashboard-frame" src="http://localhost:3000/public/question/173aa966-0b0c-4038-8ff5-1500145a0ce4"></iframe>
+                <iframe id="commonlyPrescribedMedications" class="dashboard-frame" src="http://localhost:3000/public/question/313c6aa2-f53d-4c08-9002-9a0a7295077c"></iframe>
+                <iframe id="genderAllergiesDistribution" class="dashboard-frame" src="http://localhost:3000/public/question/9350ce5b-592c-476c-aad5-847b63b0975c"></iframe>
+                
+                <div id="placeholderMessage" class="placeholder-message">
+                    <div class="placeholder-content">
+                        <div class="placeholder-icon">
+                           <img src="pharmasis.png">
+                        </div>
+                        <p>Select a report from the menu to view detailed analytics and insights</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryButtons = document.querySelectorAll('.category-button');
+            const submenus = document.querySelectorAll('.submenu');
+            const submenuItems = document.querySelectorAll('.submenu-item');
+            const iframes = document.querySelectorAll('.dashboard-frame');
+            const placeholderMessage = document.getElementById('placeholderMessage');
+            
+            // Initialize - hide all iframes and show placeholder
+            iframes.forEach(iframe => iframe.classList.remove('active'));
+            placeholderMessage.style.display = 'flex';
+            
+            // Handle category button clicks
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const category = this.getAttribute('data-category');
+                    const submenu = document.getElementById(category + '-submenu');
+                    
+                    // Toggle the clicked submenu
+                    submenu.classList.toggle('active');
+                    this.classList.toggle('active');
+                    
+                    // Close other submenus if this one is opening
+                    if (submenu.classList.contains('active')) {
+                        submenus.forEach(menu => {
+                            if (menu !== submenu) {
+                                menu.classList.remove('active');
+                            }
+                        });
+                        
+                        categoryButtons.forEach(btn => {
+                            if (btn !== this) {
+                                btn.classList.remove('active');
+                            }
+                        });
+                    }
+                });
+            });
+            
+            // Handle submenu item clicks
+            submenuItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const targetIframeId = this.getAttribute('data-iframe');
+                    
+                    // Update active states
+                    submenuItems.forEach(it => it.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Hide all iframes and show the selected one
+                    iframes.forEach(iframe => iframe.classList.remove('active'));
+                    placeholderMessage.style.display = 'none';
+                    
+                    const targetIframe = document.getElementById(targetIframeId);
+                    if (targetIframe) {
+                        targetIframe.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
