@@ -7,8 +7,7 @@ PharmaSis is a pharmaceutical system designed to manage pharmacy inventories, pr
 - **HTML/CSS/JavaScript** (Frontend)
 - **XAMPP / MySQL** (Database)
 - **Metabase** (Data Visualization)
-- *(Optional)* React + Node.js if used
-
+  
 ---
 
 ## How to Run the Web App
@@ -16,7 +15,6 @@ PharmaSis is a pharmaceutical system designed to manage pharmacy inventories, pr
 ### 1. **Setup XAMPP**
 
 - Open XAMPP and start **Apache** and **MySQL**.
-- Place the `pharma-sis` folder inside your `htdocs` directory.
 - Open a browser and go to: `http://localhost/pharma-sis/index.html`
 
 ### 2. **Import the Database**
