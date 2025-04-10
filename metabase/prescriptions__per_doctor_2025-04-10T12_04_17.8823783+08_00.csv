@@ -1,0 +1,501 @@
+Doctor,Specialization,Prescription Count
+Richard Thomas,Cardiology,101
+William Anderson,Family Medicine,101
+Susan Taylor,Internal Medicine,100
+Mark Moore,Psychiatry,99
+Karen Wilson,Pediatrics,99
+Harper King,Endocrinology,0
+Harper Roberts,Nephrology,0
+Charlotte Jackson,Pediatric Pulmonology,0
+Harper Taylor,Pediatric Pulmonology,0
+David Martinez,Gastroenterology,0
+Judith Cole,Rehabilitation Medicine,0
+Jack Davis,Orthopedic Surgery,0
+Sofia Young,Pediatric Neurology,0
+Rochelle Knight,Pediatric Social Skills,0
+Pamela Murphy,Pediatric Cardiology,0
+Avery Hernandez,Pediatric Infectious Disease,0
+Phillip Arnold,Pediatric Otolaryngology,0
+Jackson Roberts,Cardiology,0
+Mason Young,Pediatric Neurology,0
+Matthew Rodriguez,Vascular Surgery,0
+Joyce Wells,Pediatric Sports Medicine,0
+Lily Roberts,Pediatric Pulmonology,0
+Pearlie Wagner,Pediatric Horticulture Therapy,0
+Kelly Sanders,Pediatric Surgery,0
+Mason Anderson,Pediatric Cardiology,0
+Ethan Roberts,Nephrology,0
+Frederick Stephens,Pediatric Weight Management,0
+Benjamin Taylor,Pediatric Neurology,0
+Sofia Adams,Nephrology,0
+Ronald Gonzalez,Hepatology,0
+Zoe Allen,Pediatric Neurology,0
+Ola Payne,Pediatric Traditional Medicine,0
+Jennifer Butler,Reproductive Psychiatry,0
+Grace Perez,Pediatric Neurology,0
+Madison Moore,Pediatric Infectious Disease,0
+Leroy Dunn,Pediatric Trauma,0
+Jackson Garcia,Pediatric Rheumatology,0
+Olivia Taylor,Pediatric Pulmonology,0
+Bernice Stephens,Pediatric Orthotics,0
+Gary Evans,Gynecologic Oncology,0
+Zoe Hernandez,Orthopedic Surgery,0
+Denise Kennedy,Pediatric Nephrology,0
+Scarlett Roberts,Plastic Surgery,0
+Mason Roberts,Cardiology,0
+Margaret Anderson,Infectious Disease,0
+Richard Fisher,Pediatric Anesthesiology,0
+William Walker,Pediatric Pulmonology,0
+Antonia Dunn,Pediatric Math Disorders,0
+Patrick Cox,Movement Disorders,0
+Harper Jackson,Plastic Surgery,0
+Lori Grant,Pediatric Pathology,0
+Liam Taylor,Pediatric Pulmonology,0
+Charlotte Adams,Plastic Surgery,0
+Carol Allen,Sleep Medicine,0
+Ava Scott,Dermatology,0
+Alton Knight,Pediatric Recreation Therapy,0
+Eugene Ross,Pediatric Oncology,0
+Grace Clark,Dermatology,0
+Benjamin Taylor,Plastic Surgery,0
+Yvonne Arnold,Pediatric Sickle Cell,0
+Madison Roberts,Endocrinology,0
+Olivia King,Orthopedic Surgery,0
+Cynthia Roberts,Integrative Medicine,0
+Madison Taylor,Endocrinology,0
+Trudy Wagner,Pediatric Environmental Health,0
+Russell Russell,Interventional Cardiology,0
+Olivia Hernandez,Pediatric Pulmonology,0
+Harper Roberts,Pediatric Pulmonology,0
+Mark Moore,Psychiatry,0
+Katherine Ford,Health Informatics,0
+Benjamin Roberts,Pediatric Rheumatology,0
+Avery Roberts,Dermatology,0
+Claude Arnold,Pediatric Hearing Rehab,0
+Judith Morris,Developmental Pediatrics,0
+Benjamin Hernandez,Gastroenterology,0
+Jerry Gardner,Pediatric Rheumatology,0
+Ethan Taylor,Pediatric Infectious Disease,0
+Olivia Hernandez,Pediatric Neurology,0
+Thomas Martin,Geriatrics,0
+Jacqueline Cruz,Pediatric Rehabilitation,0
+Isabella Gonzalez,Pediatric Neurology,0
+Irving Stephens,Pediatric Psychology,0
+Amanda Gray,Electrophysiology,0
+Emily Davis,Pediatric Endocrinology,0
+Charlotte Jackson,Pediatric Pulmonology,0
+Billy Hawkins,Pediatric Critical Care,0
+Ethan Allen,Dermatology,0
+Benjamin Roberts,Pediatric Infectious Disease,0
+Donald Lopez,Nuclear Medicine,0
+Elijah Young,Orthopedic Surgery,0
+Inez Dunn,Pediatric Acupuncture,0
+Diana Powell,Pediatric Urology,0
+Jacob Allen,Endocrinology,0
+Charlotte Moore,Orthopedic Surgery,0
+Vincent Grant,Pediatric ADHD,0
+Zoe Jackson,Plastic Surgery,0
+Charlotte Young,Pediatric Neurology,0
+Lucas Roberts,Cardiology,0
+Lucas Hernandez,Pediatric Pulmonology,0
+Benjamin Hernandez,Cardiology,0
+Lucas Moore,Dermatology,0
+Linda Rodriguez,Endocrinology,0
+Benjamin Woods,Pediatric Radiology,0
+Lucy Brown,Pediatric Surgery,0
+Mason Taylor,Plastic Surgery,0
+Pat Grant,Pediatric Language Delay,0
+Eric Bell,Skull Base Surgery,0
+Lily Moore,Orthopedic Surgery,0
+Tina Matthews,Pediatric Ophthalmology,0
+Zoe King,Endocrinology,0
+Charlotte King,Orthopedic Surgery,0
+Lisa Clark,Radiology,0
+Nathan Freeman,Pediatric Pain Medicine,0
+Ethan Taylor,Pediatric Surgery,0
+Orville Arnold,Pediatric Animal Therapy,0
+Arthur Kelly,Reproductive Urology,0
+William Taylor,General Surgery,0
+Olivia King,Plastic Surgery,0
+Stacey Gardner,Pediatric Genetics,0
+Mason White,Orthopedic Surgery,0
+Mason Roberts,Dermatology,0
+Laura Baker,Colorectal Surgery,0
+Mason Roberts,Cardiology,0
+Noel Stephens,Pediatric Ayurveda,0
+Roy Washington,Addiction Psychiatry,0
+Jack Gonzalez,Pediatric Hematology,0
+Sofia Allen,Nephrology,0
+Joy Hawkins,Pediatric Stroke,0
+Amelia Wilson,Pediatric Rheumatology,0
+Avery King,Cardiology,0
+Kirk Gardner,Pediatric Prosthetics,0
+Liam Allen,Psychiatry,0
+Roger Bryant,Pediatric Cardiology,0
+William White,Pediatric Infectious Disease,0
+Charlotte Hernandez,Pediatric Infectious Disease,0
+John Wilson,Pulmonology,0
+Victoria Reynolds,Hyperbaric Medicine,0
+Ava Hernandez,Rheumatology,0
+Wilbert Hawkins,Pediatric Dyslexia,0
+Teresa Richardson,Facial Plastic Surgery,0
+Mason Taylor,Endocrinology,0
+Louis Nichols,Pediatric Anesthesiology,0
+Avery Young,Pediatric Neurology,0
+Sofia Young,Cardiology,0
+Kenneth Hall,Anesthesiology,0
+Paula Tucker,Pediatric Transplant,0
+Olivia White,Cardiology,0
+Willa Grant,Pediatric Drama Therapy,0
+Rachel Barnes,Gynecologic Surgery,0
+Henry Harris,Plastic Surgery,0
+Avery Hernandez,Endocrinology,0
+Neil Matthews,Pediatric Cystic Fibrosis,0
+Avery Young,Pediatric Ophthalmology,0
+Ella Moore,Pediatric Pulmonology,0
+George Perez,Interventional Radiology,0
+Lucas Gonzalez,Plastic Surgery,0
+Sterling Arnold,Pediatric Preventive Medicine,0
+Emily Alexander,Traumatic Brain Injury,0
+Avery Hernandez,Plastic Surgery,0
+Karen Wilson,Pediatrics,0
+Ernest Myers,Interventional Pain Management,0
+Lily Anderson,Pediatric Rheumatology,0
+Ella Moore,Orthopedic Surgery,0
+Sonya Matthews,Pediatric Vision Rehab,0
+Jeffrey Sanchez,Maxillofacial Surgery,0
+Lily Allen,Pediatric Pulmonology,0
+Doris Spencer,Pediatric Neurology,0
+Madison Roberts,Psychiatry,0
+Ella Adams,Plastic Surgery,0
+Dorothy Harris,Obstetrics,0
+Norman McDonald,Colorectal Surgery,0
+Mason Roberts,Orthopedic Surgery,0
+Gwen Gardner,Pediatric Neuropsychology,0
+Larry Peterson,Pediatric Gastroenterology,0
+Michael Brown,Cardiology,0
+Lily Roberts,Plastic Surgery,0
+Annie Stone,Pediatric Pain Medicine,0
+Olivia Hernandez,Nephrology,0
+Mason King,Plastic Surgery,0
+Donna Wright,Preventive Medicine,0
+Jackson Lee,Nephrology,0
+Homer Hawkins,Pediatric Massage Therapy,0
+Wayne Perry,Pediatric Orthopedics,0
+Charlotte Young,Pediatric Neurology,0
+Ella King,Nephrology,0
+Melanie Nichols,Pediatric Autism,0
+Olivia Taylor,Gastroenterology,0
+Sofia Roberts,Plastic Surgery,0
+Kathleen Parker,Forensic Medicine,0
+Liam Jackson,Orthopedic Surgery,0
+Sofia King,Plastic Surgery,0
+Mia White,Pediatric Neurology,0
+Benjamin Adams,Pediatric Infectious Disease,0
+Michael Garcia,Ophthalmology,0
+Shirley Wallace,Radiation Oncology,0
+John Smith,Neurology,0
+Avery Allen,Psychiatry,0
+Oscar Nichols,Pediatric Stuttering,0
+Sandra Morgan,Reproductive Endocrinology,0
+Sofia Young,Nephrology,0
+Sean Berry,Pediatric Urology,0
+Lucas White,Dermatology,0
+Benjamin Adams,Plastic Surgery,0
+Daniel Robinson,Pathology,0
+Theresa Murray,Neurodevelopmental Disabilities,0
+Madison Allen,Pediatric Ophthalmology,0
+Nettie Matthews,Pediatric Play Therapy,0
+Melissa Brooks,Maternal-Fetal Medicine,0
+Sophia Moore,Neurological Surgery,0
+Avery Roberts,Cardiology,0
+Alan Spencer,Pediatric Behavioral Health,0
+Sofia Moore,Gastroenterology,0
+Charlotte King,Pediatric Pulmonology,0
+Edward Adams,Thoracic Surgery,0
+Charlotte Adams,Endocrinology,0
+Myrtle Gardner,Pediatric Homeopathy,0
+Tiffany Flores,Pediatric Ophthalmology,0
+Ella Baker,Pediatric Pulmonology,0
+Mia Roberts,Plastic Surgery,0
+Warren Stone,Pediatric Brain Injury,0
+Madison Moore,Pediatric Pulmonology,0
+Marlene Spencer,Pediatric Rehabilitation,0
+Ethan Taylor,Pediatric Infectious Disease,0
+Marilyn Ferguson,Pediatric Emergency Medicine,0
+Lily Moore,Nephrology,0
+Olivia Moore,Nephrology,0
+Barbara Gonzalez,Oncology,0
+Kyle Owens,Neuropsychiatry,0
+James Jackson,Endocrinology,0
+Velma Stone,Pediatric Learning Disorders,0
+Joshua Cooper,Pediatric Neurology,0
+Benjamin Roberts,Pediatric Pulmonology,0
+Beverly Mills,Pediatric Radiology,0
+Harper White,Dermatology,0
+Mason Taylor,Orthopedic Surgery,0
+Sarah Walker,Physical Medicine,0
+Stanley Stevens,Surgical Critical Care,0
+Michael Adams,Plastic Surgery,0
+Travis Nichols,Pediatric Dance Therapy,0
+Stephen Wood,Neuroradiology,0
+Amelia White,Pediatric Ophthalmology,0
+Charlotte Adams,Dermatology,0
+Vicki Berry,Pediatric Epilepsy,0
+Harper Allen,Pediatric Infectious Disease,0
+Lucas Adams,Plastic Surgery,0
+Deborah Mitchell,Podiatry,0
+Benjamin White,Dermatology,0
+Rosalind Matthews,Pediatric Lifestyle Medicine,0
+Brandon Bryant,Epilepsy,0
+William Rodriguez,Pediatric Rheumatology,0
+Harper Lee,Dermatology,0
+Olivia King,Cardiology,0
+Richard Thomas,Cardiology,0
+Christina Hayes,Aviation Medicine,0
+Daniel Taylor,Pediatric Rheumatology,0
+Mason Adams,Pediatric Neurology,0
+Marshall Berry,Pediatric Augmentative Comm,0
+Virginia Stewart,Hospice,0
+Sofia Taylor,Dermatology,0
+Harry Hudson,Pediatric Gastroenterology,0
+Mason Adams,Gastroenterology,0
+Sofia Moore,Nephrology,0
+Joseph White,Nephrology,0
+Diana Gibson,Pediatric Allergy and Immunology,0
+Daniel Moore,Plastic Surgery,0
+Elbert Spencer,Pediatric Executive Function,0
+Helen Torres,Pediatric Pulmonology,0
+Sarah Johnson,Neurology,0
+Mason Adams,Nephrology,0
+Bruce Rose,Pediatric Sports Medicine,0
+Lily Roberts,Pediatric Infectious Disease,0
+Charlotte Moore,Cardiology,0
+Mark King,Medical Genetics,0
+Harper Roberts,Gastroenterology,0
+Faye Stone,Pediatric Respiratory Therapy,0
+Carolyn Jenkins,Female Pelvic Medicine,0
+Benjamin Walker,Pediatric Infectious Disease,0
+Mason Jackson,Pediatric Pulmonology,0
+Dean Mills,Pediatric Down Syndrome,0
+Benjamin Moore,Orthopedic Surgery,0
+Mason Taylor,Cardiology,0
+Kevin Campbell,Addiction Medicine,0
+Emma Allen,Psychiatry,0
+Avery Adams,Nephrology,0
+Mason Young,Pediatric Ophthalmology,0
+Charlotte Roberts,Orthopedic Surgery,0
+Patricia Davis,Neurology,0
+Johnny Sullivan,Osteopathic Medicine,0
+William Moore,Pediatric Rheumatology,0
+Olivia Roberts,Nephrology,0
+Miriam Mills,Pediatric Voice Therapy,0
+Timothy Cook,Medical Toxicology,0
+Lucas Taylor,Pediatric Neurology,0
+Gloria Pierce,Pediatric Dermatology,0
+Sofia Adams,Plastic Surgery,0
+Avery Moore,Pediatric Infectious Disease,0
+Betty Martinez,Pain Management,0
+Howard Gomez,Interventional Pulmonology,0
+Amelia Martinez,Pediatric Infectious Disease,0
+Mickey Berry,Pediatric Music Therapy,0
+Jerry Watson,Pediatric Hematology,0
+James Wilson,Pediatric Hematology,0
+Benjamin Allen,Dermatology,0
+Florence Hudson,Pediatric Developmental,0
+Lucas Adams,Pediatric Pulmonology,0
+Olivia Hernandez,Plastic Surgery,0
+Michelle Green,Adolescent Medicine,0
+Ella King,Plastic Surgery,0
+Lamar Spencer,Pediatric Naturopathy,0
+Lawrence Hughes,Congenital Cardiac Surgery,0
+Daniel Adams,Pediatric Cardiology,0
+Benjamin Allen,Gastroenterology,0
+Sheila Rose,Pediatric Rare Diseases,0
+Liam King,Plastic Surgery,0
+Alvin Hudson,Pediatric Wound Care,0
+Jackson Hernandez,Rheumatology,0
+Gregory Hawkins,Pediatric Hematology-Oncology,0
+Ella Taylor,Pediatric Neurology,0
+Ella Taylor,Plastic Surgery,0
+James Lopez,Urology,0
+Brenda Jordan,Pain Psychology,0
+Sophia Martinez,Gastroenterology,0
+Lucas Hernandez,Orthopedic Surgery,0
+Terrance Rose,Pediatric Sensory Processing,0
+Christine Rivera,Neuro-oncology,0
+Madison King,Dermatology,0
+Russell Willis,Pediatric Plastic Surgery,0
+Charlotte Moore,Rheumatology,0
+Avery Hernandez,Pediatric Pulmonology,0
+Anthony Lee,Critical Care,0
+Victoria Simpson,Pediatric Plastic Surgery,0
+Grace Jackson,Pediatric Hematology,0
+Susie Mills,Pediatric Hippotherapy,0
+Frances Bennett,Pediatric Endocrinology,0
+Lucas Jackson,Pulmonology,0
+Harper Lee,Gastroenterology,0
+Martin Pierce,Pediatric Diabetes,0
+Charlotte Taylor,Psychiatry,0
+Harper Taylor,Cardiology,0
+William Carter,Otolaryngology,0
+Sofia Hernandez,Pediatric Pulmonology,0
+Quentin Berry,Pediatric Functional Medicine,0
+Stephanie Foster,Pediatric Emergency Medicine,0
+Ava Martinez,Pediatric Rheumatology,0
+Lucas Young,Pediatric Neurology,0
+Susan Taylor,Internal Medicine,0
+Fred Diaz,Pediatric Infectious Disease,0
+Olivia Martinez,Pediatric Rheumatology,0
+Sofia Hernandez,Nephrology,0
+Kristin Pierce,Pediatric Assistive Tech,0
+Jason Collins,Hand Surgery,0
+Mason King,Cardiology,0
+Janet Dixon,Pediatric Endocrinology,0
+Charlotte Allen,Orthopedic Surgery,0
+Harper Adams,Dermatology,0
+Susan Jackson,Allergy and Immunology,0
+Leonard Harrison,Travel Medicine,0
+Olivia Young,Psychiatry,0
+Darla Hudson,Pediatric Memory Clinic,0
+Andrew Ward,Minimally Invasive Surgery,0
+John Doe,Orthopedic Surgery,0
+Olivia Adams,Pediatric Infectious Disease,0
+Tammy Ferguson,Pediatric Sleep Medicine,0
+Benjamin Jackson,Orthopedic Surgery,0
+Olivia Roberts,Nephrology,0
+Sharon Hernandez,Palliative Care,0
+Lucas Martinez,Endocrinology,0
+Dewayne Rose,Pediatric Physical Therapy,0
+Harold Coleman,Pediatric Dermatology,0
+Madison Roberts,Pediatric Gastroenterology,0
+Madison Young,Pediatric Infectious Disease,0
+Geraldine Willis,Pediatric Spina Bifida,0
+Avery Lee,Nephrology,0
+Harper Moore,Pediatric Infectious Disease,0
+Amy Phillips,Clinical Immunology,0
+Jacob King,Cardiology,0
+Isabella Moore,Pediatric Infectious Disease,0
+Sofia Taylor,Plastic Surgery,0
+Robert Brown,Orthopedics,0
+Ashley Graham,Clinical Neurophysiology,0
+Sophia Baker,Pediatric Rheumatology,0
+Benjamin King,Pediatric Infectious Disease,0
+Lionel Willis,Pediatric Swallowing,0
+Cheryl Reed,Spinal Surgery,0
+Ella Roberts,Plastic Surgery,0
+Eugene Payne,Pediatric Allergy/Immunology,0
+Benjamin Moore,Nephrology,0
+Lucas Hernandez,Cardiology,0
+Christopher Garcia,Sports Medicine,0
+Evelyn Ortiz,Geriatric Psychiatry,0
+Charlotte King,Nephrology,0
+Lela Pierce,Pediatric Art Therapy,0
+Marie James,Pediatric Nephrology,0
+Olivia Garcia,Rheumatology,0
+Mia Hernandez,Orthopedic Surgery,0
+Earl Perkins,Pediatric Transplant,0
+Avery Taylor,Endocrinology,0
+Avery Young,Orthopedic Surgery,0
+Steven Scott,Transplant Surgery,0
+Liam Jackson,Pediatric Infectious Disease,0
+Kendra Hudson,Pediatric Osteopathy,0
+Heather Patterson,Pediatric Otolaryngology,0
+Lily Scott,Pediatric Nephrology,0
+Zoe Hernandez,Cardiology,0
+Reginald Ferguson,Pediatric Muscular Dystrophy,0
+Ella Roberts,Pediatric Neurology,0
+Olivia Taylor,Dermatology,0
+Zoe Adams,Dermatology,0
+Ella Adams,Plastic Surgery,0
+James Adams,Dermatology,0
+Madison Young,Orthopedic Surgery,0
+Elizabeth Hernandez,Rheumatology,0
+Walter West,Neurorehabilitation,0
+Ethan Thomas,Cardiology,0
+Charlotte Adams,Dermatology,0
+Salvatore Ferguson,Pediatric Motor Skills,0
+Gregory Bailey,Cornea and External Disease,0
+Ethan Moore,Cardiology,0
+Rose Wagner,Pediatric Orthopedics,0
+Mia Lee,Plastic Surgery,0
+Ella Taylor,Nephrology,0
+Margaret Lewis,Plastic Surgery,0
+Scott Webb,Heart Failure and Transplantation,0
+Benjamin Clark,Rheumatology,0
+Roosevelt Willis,Pediatric Aquatic Therapy,0
+Raymond Price,Retina Specialist,0
+Isabella Thomas,Nephrology,0
+Lily Allen,Pediatric Neurology,0
+Kristina Payne,Pediatric Asthma,0
+Ella Allen,Plastic Surgery,0
+Avery Hernandez,Pediatric Infectious Disease,0
+Kimberly Nelson,Fertility,0
+Ethan Moore,Rheumatology,0
+Paulette Pierce,Pediatric Integrative Medicine,0
+Bruce Simmons,Pediatric Critical Care,0
+Ethan Miller,Orthopedics,0
+Lily Jackson,Orthopedic Surgery,0
+Priscilla Perkins,Pediatric Burns,0
+Mason Hernandez,Pediatric Rheumatology,0
+Charlotte Young,Plastic Surgery,0
+Lester Payne,Pediatric Wheelchair Clinic,0
+Rebecca Edwards,Bariatric Medicine,0
+Avery Lee,Endocrinology,0
+Peter Warren,Pediatric Pulmonology,0
+Elijah Hernandez,Cardiology,0
+Avery King,Orthopedic Surgery,0
+Charles Thomas,Hematology,0
+Olivia Ellis,Developmental Behavioral Pediatrics,0
+Benjamin Scott,Pediatric Cardiology,0
+Bennie Perkins,Pediatric Writing Disorders,0
+Nicole Howard,Wound Care,0
+Alice Smith,Pediatric Surgery,0
+Mia King,Orthopedic Surgery,0
+Wayne Knight,Pediatric Rehabilitation,0
+Harper King,Endocrinology,0
+Ella Hernandez,Pediatric Pulmonology,0
+Paul Young,Occupational Medicine,0
+Sophia Hernandez,Pediatric Ophthalmology,0
+Cecelia Ferguson,Pediatric Occupational Therapy,0
+Catherine Henderson,Pediatric Rheumatology,0
+Elijah Lewis,Psychiatry,0
+Sofia King,Cardiology,0
+Terry Wagner,Pediatric Feeding Clinic,0
+Mia Jackson,Dermatology,0
+Avery Young,Nephrology,0
+Brian Turner,Clinical Genetics,0
+Mia Roberts,Pediatric Neurology,0
+William Anderson,Family Medicine,0
+Julie Griffin,Burn Surgery,0
+Ethan Lee,Plastic Surgery,0
+Mason Allen,Nephrology,0
+Jennifer Johnson,Dermatology,0
+Samuel Hamilton,Transplant Hepatology,0
+Ava Wilson,Pediatric Rheumatology,0
+Lucas Taylor,Cardiology,0
+Lillie Wagner,Pediatric Feeding Therapy,0
+Ryan Rogers,Surgical Oncology,0
+Mia Jackson,Psychiatry,0
+Julia Stephens,Pediatric Infectious Disease,0
+Avery Jackson,Orthopedic Surgery,0
+Mason Roberts,Pediatric Pulmonology,0
+Nancy Thompson,Emergency Medicine,0
+Philip Marshall,Pediatric Psychiatry,0
+Jacob Lee,Dermatology,0
+Jerald Payne,Pediatric Counseling,0
+Dennis Ramirez,Laryngology,0
+David Martinez,Gastroenterology,0
+Lucas Young,Psychiatry,0
+Samantha Dunn,Pediatric Palliative Care,0
+Madison White,Rheumatology,0
+Sofia Adams,Nephrology,0
+Ruth Hill,Neonatology,0
+Avery Allen,Psychiatry,0
+Junior Perkins,Pediatric Chiropractic,0
+Alan Long,Vascular Neurology,0
+Michael King,General Pediatrics,0
+Olivia Roberts,Pediatric Neurology,0
+Monica Knight,Pediatric Cerebral Palsy,0
+Liam Allen,Pediatric Infectious Disease,0
+Mason Moore,Orthopedic Surgery,0

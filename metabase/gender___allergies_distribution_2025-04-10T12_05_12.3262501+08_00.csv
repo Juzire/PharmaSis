@@ -1,0 +1,26 @@
+Gender,Allergies,Count
+F,Aspirin,1
+F,Codeine,4
+F,Dairy,1
+F,Erythromycin,1
+F,Ibuprofen,5
+F,Iodine,1
+F,Latex,10
+F,None,202
+F,Peanuts,1
+F,Penicillin,9
+F,Shellfish,5
+F,Sulfa,1
+F,Sulfa drugs,9
+F,Tetracycline,1
+M,Amoxicillin,21
+M,Aspirin,22
+M,Codeine,22
+M,Ibuprofen,1
+M,Iodine,19
+M,Latex,23
+M,None,45
+M,Peanuts,23
+M,Penicillin,26
+M,Shellfish,24
+M,Sulfa drugs,25
