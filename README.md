@@ -4,10 +4,6 @@ PharmaSis is a pharmaceutical system designed to manage pharmacy inventories, pr
 
 ## Project Structure
 
----
-
-## 🧪 Technologies Used
-
 - **HTML/CSS/JavaScript** (Frontend)
 - **XAMPP / MySQL** (Database)
 - **Metabase** (Data Visualization)
@@ -15,7 +11,7 @@ PharmaSis is a pharmaceutical system designed to manage pharmacy inventories, pr
 
 ---
 
-## 🚀 How to Run the Web App
+## How to Run the Web App
 
 ### 1. **Setup XAMPP**
 
@@ -39,30 +35,6 @@ PharmaSis is a pharmaceutical system designed to manage pharmacy inventories, pr
 
 ---
 
-## 🖼️ Sample Metabase Screenshots
-
-See the `documentation.pdf` for screenshots of:
-- Overview dashboard
-- Sales & Inventory reports
-- Monthly trend analysis
-
----
-
-## 👤 Users Guide
-
-> For steps on using the system, see the **User Guide** section in the documentation or the system walkthrough in the `docs` folder.
-
----
-
-## 👨‍💻 Authors / Contributors
-
-- John Doe – Backend
-- Jane Smith – Frontend
-- Alex Cruz – Database
-- Maria Lee – Metabase Setup
-
----
-
-## 📄 License
+## License
 
 This project is for educational purposes only.
