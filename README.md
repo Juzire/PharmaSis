@@ -10,26 +10,27 @@ PharmaSis is a pharmaceutical system designed to manage pharmacy inventories, pr
   
 ---
 
-## How to Run the Web App
+## Features
 
-### 1. **Setup XAMPP**
+### 1. **Home Page**
 
-- Open XAMPP and start **Apache** and **MySQL**.
-- Open a browser and go to: `http://localhost/pharma-sis/index.html`
+- Upon loading, you'll see a welcome message
 
-### 2. **Import the Database**
+### 2. **View Reports**
 
-- Open **DBeaver** or **phpMyAdmin**.
-- Create a new database (e.g., `pharmasis_db`).
-- Run the SQL script found in `database/pharma_schema.sql` to import tables and dummy data.
+- On the left top section, you’ll find a navigation menu:
 
-### 3. **Open Metabase Dashboards**
+- *Doctor Performance*
+- *Financial & Inventory*
+- *Patients Analytics*
 
-- Open **Metabase** and connect it to the database (`pharmasis_db`).
-- If using the provided `metabase.db.mv.db` files:
-  - Replace your local Metabase DB files with these (location: `C:\Users\<You>\`)
-  - Restart Metabase.
-- Dashboards and saved questions will be pre-loaded.
+- Click any report title to be redirected to the corresponding Metabase dashboards.
+
+### 3. **Dashboards**
+
+- You can view graphs, tables, and charts.
+- You can hover over the chart to see more details.
+
 
 ---
 
