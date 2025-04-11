@@ -10,27 +10,25 @@ PharmaSis is a pharmaceutical system designed to manage pharmacy inventories, pr
   
 ---
 
-## Features
+🔹 Accessing the System
+Open XAMPP and start the following services:
 
-### 1. **Home Page**
+✅ Apache
 
-- Upon loading, you'll see a welcome message
+✅ MySQL
 
-### 2. **View Reports**
+Locate the project folder (e.g., PharmaSis) and place it inside the htdocs directory:
 
-- On the left top section, you’ll find a navigation menu:
+C:\xampp\htdocs\PharmaSis
 
-- *Doctor Performance*
-- *Financial & Inventory*
-- *Patients Analytics*
+Open your browser and navigate to:
 
-- Click any report title to be redirected to the corresponding Metabase dashboards.
+http://localhost/PharmaSis.html
 
-### 3. **Dashboards**
+🔹 Metabase
 
-- You can view graphs, tables, and charts.
-- You can hover over the chart to see more details.
-
+Visit:
+http://localhost:3000/
 
 ---
 
