@@ -17,6 +17,8 @@ Open XAMPP and start the following services:
 
 ✅ MySQL
 
+Open DBeaver
+
 Locate the project folder (e.g., PharmaSis) and place it inside the htdocs directory:
 
 C:\xampp\htdocs\PharmaSis
